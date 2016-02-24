@@ -1,0 +1,415 @@
+Tue, 23 Feb 2016 17:17:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8181/ (Press CTRL+C to quit)
+Tue, 23 Feb 2016 17:17:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:18:11 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\runserver.py', reloading
+Tue, 23 Feb 2016 17:18:11 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:18:19 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8282/ (Press CTRL+C to quit)
+Tue, 23 Feb 2016 17:18:19 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:18:25 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:18:25] "GET /servers HTTP/1.1" 404 -
+Tue, 23 Feb 2016 17:19:16 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] ERROR 192.168.39.170 - - [23/Feb/2016 17:19:16] code 400, message Bad request syntax ('\xff\xf4\xff\xfd\x06')
+Tue, 23 Feb 2016 17:19:16 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:19:16] "����" 400 -
+Tue, 23 Feb 2016 17:19:55 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:19:55] "GET //servers HTTP/1.1" 404 -
+Tue, 23 Feb 2016 17:20:03 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\__init__.py', reloading
+Tue, 23 Feb 2016 17:20:03 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:20:08 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:20:08] "GET /aa/servers HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:20:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\__init__.py', reloading
+Tue, 23 Feb 2016 17:20:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:20:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:20:30] "GET /v2/servers HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:20:55 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\__init__.py', reloading
+Tue, 23 Feb 2016 17:20:55 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:21:01 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:21:01] "GET /v1/servers HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:21:15 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\__init__.py', reloading
+Tue, 23 Feb 2016 17:21:15 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:21:18 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:21:18] "GET /servers HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:23:37 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:23:37 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:23:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:23:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:23:51 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:23:51 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:24:42 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:24:42 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:25:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:25:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:26:05 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:26:05 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:26:24 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:26:24 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:26:56 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:26:56 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:27:10 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:27:10 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:27:32 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:27:32 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:27:46 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:27:46] "GET /servers HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:28:01 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:28:02 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:28:03 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=305317552&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=ke4W5TWyvVSmOIWpbk6HfhUrbkA%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456219681&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:28:03 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:28:03] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 500 -
+Tue, 23 Feb 2016 17:28:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:28:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:28:42 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:28:42 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:28:43 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1471991118&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=c4wpgTSkCA1ypTnZ1FpkB79kIDA%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456219722&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:28:43 E:\twocloud\tc_api\api\nova.py[line:59] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 56, in servers
+    return jsonify(result)
+  File "C:\Python27\lib\site-packages\flask-0.10.1-py2.7.egg\flask\json.py", line 237, in jsonify
+    return current_app.response_class(dumps(dict(*args, **kwargs),
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+Tue, 23 Feb 2016 17:28:43 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:28:43] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:28:54 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:28:54 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:28:54 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=105591119&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=B7dAw4BO8vSByp5WZ1rgNjQg1Yk%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456219734&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:28:54 E:\twocloud\tc_api\api\nova.py[line:59] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 56, in servers
+    return jsonify(result)
+  File "C:\Python27\lib\site-packages\flask-0.10.1-py2.7.egg\flask\json.py", line 237, in jsonify
+    return current_app.response_class(dumps(dict(*args, **kwargs),
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+Tue, 23 Feb 2016 17:28:54 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:28:54] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:29:10 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:29:10 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:29:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:29:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:29:16 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:29:16 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:29:18 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=2056948937&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=J%2FwVWUA2j3bSUziHHx21g1xX23c%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456219756&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:29:18 E:\twocloud\tc_api\api\nova.py[line:59] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 57, in servers
+    return jsonify(result)
+  File "C:\Python27\lib\site-packages\flask-0.10.1-py2.7.egg\flask\json.py", line 237, in jsonify
+    return current_app.response_class(dumps(dict(*args, **kwargs),
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+Tue, 23 Feb 2016 17:29:18 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:29:18] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:29:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:29:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:29:42 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:29:43 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:29:44 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1987109137&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=i0%2BKzF6r7j6CKX%2BuCoM4Rerj3Fw%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456219783&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:29:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:29:44] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 200 -
+Tue, 23 Feb 2016 17:30:26 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:30:26 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:30:26 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:30:26 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:30:29 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:30:29 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:30:30 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=103796798&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=Hj1Rv%2Flox0BB7fc6FxOIXouPpC4%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456219829&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:30:30 E:\twocloud\tc_api\api\nova.py[line:58] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 56, in servers
+    return jsonify(result)
+  File "C:\Python27\lib\site-packages\flask-0.10.1-py2.7.egg\flask\json.py", line 237, in jsonify
+    return current_app.response_class(dumps(dict(*args, **kwargs),
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+Tue, 23 Feb 2016 17:30:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:30:30] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:32:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:32:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:32:24 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:32:24 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:32:25 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1392775551&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=YM37lAb%2Fe7p66MnBZgGLMPJ1GYg%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456219944&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:32:25 E:\twocloud\tc_api\api\nova.py[line:59] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 57, in servers
+    return jsonify(result)
+  File "C:\Python27\lib\site-packages\flask-0.10.1-py2.7.egg\flask\json.py", line 237, in jsonify
+    return current_app.response_class(dumps(dict(*args, **kwargs),
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+Tue, 23 Feb 2016 17:32:25 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:32:25] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:32:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:32:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:32:46 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:32:46 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:32:47 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=2066190010&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=G3jZi7Q0Q%2BYDgAhDN%2FhIWgKT36I%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456219966&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:32:47 E:\twocloud\tc_api\api\nova.py[line:58] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 56, in servers
+    return jsonify(dict(result))
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+Tue, 23 Feb 2016 17:32:47 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.
+
+
+
+7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:32:47] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+
+Tue, 23 Feb 2016 17:33:26 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:33:26 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:33:26 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1704946316&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=z%2FQTOBd4hUnuLfhq11FLOEK9PlQ%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456220006&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:33:26 E:\twocloud\tc_api\api\nova.py[line:58] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 56, in servers
+    return jsonify(dict(result))
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+Tue, 23 Feb 2016 17:33:26 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:33:26] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:33:47 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:33:47 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:33:53 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:33:53 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:33:54 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1813576092&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=qP77UqnAgQj0QsAWTOoN%2FkqHSFc%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456220033&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:33:54 E:\twocloud\tc_api\api\nova.py[line:59] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 56, in servers
+    print dict(result)
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+Tue, 23 Feb 2016 17:33:54 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:33:54] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:34:06 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:34:06 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:34:10 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:34:10 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:34:11 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1256947235&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=EVUlFq6kDtnhE1lJzcVvMaX22FY%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456220050&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:34:11 E:\twocloud\tc_api\api\nova.py[line:58] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 56, in servers
+    print dict(result)
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+Tue, 23 Feb 2016 17:34:11 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:34:11] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:34:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:34:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:34:32 E:\twocloud\tc_api\api\nova.py[line:41] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:34:32 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:34:33 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1204377429&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=vBYvx9uh8GXSJXNUp7CnVed6LpQ%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456220072&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:34:33 E:\twocloud\tc_api\api\nova.py[line:59] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 57, in servers
+    print dict(result)
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+Tue, 23 Feb 2016 17:34:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:34:33] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:35:36 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:35:36 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:35:38 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:35:39 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:35:40 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1351277583&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=x%2FGBPzuzsftthOzjM6nRH1PITRc%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456220138&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:35:40 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:35:40] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 500 -
+Tue, 23 Feb 2016 17:36:01 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:36:01 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:36:03 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:36:03 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:36:04 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=404759839&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=DSmbET46VpLYKrlQjzosVA81gO0%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456220163&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:36:04 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:36:04] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 200 -
+Tue, 23 Feb 2016 17:36:13 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:36:13 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:36:29 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:36:29 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:36:32 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:36:32 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Tue, 23 Feb 2016 17:36:33 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=970783396&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=BsaIFPJ9poMP1poN7hunTKaLgQg%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456220192&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:36:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:36:33] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 200 -
+Tue, 23 Feb 2016 17:36:42 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:36:42 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:36:43 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:36:43 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Tue, 23 Feb 2016 17:36:44 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1308498715&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=BVNyEnVGbbKk8L3NzrqXssJ%2B7RE%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456220203&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:36:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:36:44] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 200 -
+Tue, 23 Feb 2016 17:43:01 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:43:01 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:43:05 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:43:05 E:\twocloud\tc_api\api\nova.py[line:60] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 56, in servers
+    result = service.call(action, params)
+  File "E:\twocloud\tc_api\api\third_party\QcloudApi\qcloudapi.py", line 83, in call
+    service = self._factory(self.module, self.config)
+  File "E:\twocloud\tc_api\api\third_party\QcloudApi\qcloudapi.py", line 62, in _factory
+    raise ValueError , 'module not exists'
+ValueError: module not exists
+Tue, 23 Feb 2016 17:43:05 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:43:05] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:43:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:43:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:43:32 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:43:32 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): csec.api.qcloud.com
+Tue, 23 Feb 2016 17:43:38 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1999662171&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=KPahkb2K8qcLTNNnqh%2Bo74WkuBQ%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456220612&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:43:38 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:43:38] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 200 -
+Tue, 23 Feb 2016 17:43:54 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:43:54 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:44:32 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:44:32 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:44:33 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:44:33 E:\twocloud\tc_api\api\nova.py[line:60] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 56, in servers
+    result = service.call(action, params)
+  File "E:\twocloud\tc_api\api\third_party\QcloudApi\qcloudapi.py", line 83, in call
+    service = self._factory(self.module, self.config)
+  File "E:\twocloud\tc_api\api\third_party\QcloudApi\qcloudapi.py", line 18, in _factory
+    service = Cvm(config)
+  File "E:\twocloud\tc_api\api\third_party\QcloudApi\modules\base.py", line 21, in __init__
+    self.defaultRegion = config['Region']
+KeyError: 'Region'
+Tue, 23 Feb 2016 17:44:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:44:33] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:44:39 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:44:39 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:44:44 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:44:44 E:\twocloud\tc_api\api\nova.py[line:60] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 56, in servers
+    result = service.call(action, params)
+  File "E:\twocloud\tc_api\api\third_party\QcloudApi\qcloudapi.py", line 83, in call
+    service = self._factory(self.module, self.config)
+  File "E:\twocloud\tc_api\api\third_party\QcloudApi\qcloudapi.py", line 18, in _factory
+    service = Cvm(config)
+  File "E:\twocloud\tc_api\api\third_party\QcloudApi\modules\base.py", line 21, in __init__
+    self.defaultRegion = config['Region']
+KeyError: 'Region'
+Tue, 23 Feb 2016 17:44:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:44:44] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Tue, 23 Feb 2016 17:44:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 17:44:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 17:45:12 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 17:45:12 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Tue, 23 Feb 2016 17:45:13 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=835265296&RequestClient=SDK_PYTHON_1.1&Region=%E5%8C%BA%E5%9F%9F%E5%8F%82%E6%95%B0&Signature=1O5sF2FaGJGXcwcugaWrqktB4qo%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456220712&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 17:45:13 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 17:45:13] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 200 -
+Tue, 23 Feb 2016 18:01:13 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 18:01:13 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 18:01:19 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 18:01:19 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Tue, 23 Feb 2016 18:01:21 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1241701321&RequestClient=SDK_PYTHON_1.1&Region=&Signature=4zZ4NLXVPsjAdg5AsK1QVfFEk3U%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456221679&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 18:01:21 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 18:01:21] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 200 -
+Tue, 23 Feb 2016 18:02:08 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Tue, 23 Feb 2016 18:02:08 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 23 Feb 2016 18:02:10 E:\twocloud\tc_api\api\nova.py[line:42] INFO Request: get vm servers list tenant_id => 123 region => zhenru from => None to => None
+Tue, 23 Feb 2016 18:02:10 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Tue, 23 Feb 2016 18:02:15 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=973533310&RequestClient=SDK_PYTHON_1.1&Region=gz&Signature=NtfUyzi5eY8gxZm6WXt8kw0QXQ4%3D&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456221730&Action=DescribeInstances HTTP/1.1" 200 None
+Tue, 23 Feb 2016 18:02:15 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [23/Feb/2016 18:02:15] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 200 -
+Wed, 24 Feb 2016 10:36:17 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 10:36:17 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 10:40:52 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 10:40:52 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 10:41:38 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 10:41:38 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 10:41:48 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 10:41:48 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 10:42:45 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 10:42:45 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 10:42:48 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 10:42:48] "GET /servers?tenant_id=123&region=zhenru HTTP/1.1" 400 -
+Wed, 24 Feb 2016 10:43:02 E:\twocloud\tc_api\api\nova.py[line:44] INFO Request: get vm servers list party=> qcloudtenant_id=>123 region=>zhenru from=>None to=>None
+Wed, 24 Feb 2016 10:43:02 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 10:43:03 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1333607037&projectId=123&Region=zhenru&RequestClient=SDK_PYTHON_1.1&Signature=s9rkmWgfDt5bVRcYjuav4CyXc1U%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456281782 HTTP/1.1" 200 None
+Wed, 24 Feb 2016 10:43:03 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 10:43:03] "GET /servers?party=qcloud&tenant_id=123&region=zhenru HTTP/1.1" 200 -
+Wed, 24 Feb 2016 10:43:14 E:\twocloud\tc_api\api\nova.py[line:44] INFO Request: get vm servers list party=> qcloudtenant_id=>123 region=>gz from=>None to=>None
+Wed, 24 Feb 2016 10:43:14 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 10:43:14 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1364877021&projectId=123&Region=gz&RequestClient=SDK_PYTHON_1.1&Signature=1GMBhg19ZFBZ1l%2BRnUcMm%2Fq4%2FCg%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456281794 HTTP/1.1" 200 None
+Wed, 24 Feb 2016 10:43:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 10:43:14] "GET /servers?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 200 -
+Wed, 24 Feb 2016 10:47:00 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Wed, 24 Feb 2016 10:47:00 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 10:49:01 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Wed, 24 Feb 2016 10:49:01 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 11:23:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 11:23:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 11:26:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8282/ (Press CTRL+C to quit)
+Wed, 24 Feb 2016 11:26:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 11:26:46 E:\twocloud\tc_api\api\nova.py[line:44] INFO Request: get vm servers list party=> qcloudtenant_id=>123 region=>gz from=>None to=>None
+Wed, 24 Feb 2016 11:26:46 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 11:26:48 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=2076671846&projectId=123&Region=gz&RequestClient=SDK_PYTHON_1.1&Signature=POHtjWVVM5MeKlquM%2BUdTgdrZZI%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456284406 HTTP/1.1" 200 None
+Wed, 24 Feb 2016 11:26:48 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 11:26:48] "GET /servers?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 200 -
+Wed, 24 Feb 2016 11:46:11 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 11:46:11 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 11:55:17 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 11:55:17 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 11:55:26 E:\twocloud\tc_api\api\nova.py[line:44] INFO Request: get vm servers list party=> qcloudtenant_id=>123 region=>gz from=>None to=>None
+Wed, 24 Feb 2016 11:55:26 E:\twocloud\tc_api\api\nova.py[line:66] ERROR Error with get vm_servers
+Traceback (most recent call last):
+  File "E:\twocloud\tc_api\api\nova.py", line 62, in servers
+    result = service.call(action, params)
+  File "E:\twocloud\tc_api\api\api_util.py", line 45, in call
+    _params = format_params(self.options['party'], params)
+  File "E:\twocloud\tc_api\api\api_util.py", line 27, in format_params
+    new_params[PARAMS[keys][party]] = params[keys]
+KeyError: 't'
+Wed, 24 Feb 2016 11:55:26 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 11:55:26] "GET /servers?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 400 -
+Wed, 24 Feb 2016 11:57:25 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 11:57:25 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 11:57:26 E:\twocloud\tc_api\api\nova.py[line:44] INFO Request: get vm servers list party=> qcloudtenant_id=>123 region=>gz from=>None to=>None
+Wed, 24 Feb 2016 11:57:26 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 11:57:27 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=373282984&projectId=123&Region=gz&RequestClient=SDK_PYTHON_1.1&Signature=EZz7JJsDJ0x2QY3kZgomUckgdeE%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456286246 HTTP/1.1" 200 None
+Wed, 24 Feb 2016 11:57:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 11:57:27] "GET /servers?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 200 -
+Wed, 24 Feb 2016 11:58:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 11:58:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 11:58:26 E:\twocloud\tc_api\api\nova.py[line:44] INFO Request: get vm servers list party=> qcloudtenant_id=>123 region=>gz from=>None to=>None
+Wed, 24 Feb 2016 11:58:26 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 11:58:27 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1358257760&projectId=123&Region=gz&RequestClient=SDK_PYTHON_1.1&Signature=DQV74rHeFpXI%2FF8Q%2By%2FpV1HzTJ8%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456286306 HTTP/1.1" 200 None
+Wed, 24 Feb 2016 11:58:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 11:58:27] "GET /servers?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 200 -
+Wed, 24 Feb 2016 11:59:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 11:59:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 11:59:23 E:\twocloud\tc_api\api\nova.py[line:44] INFO Request: get vm servers list party=> qcloudtenant_id=>123 region=>gz from=>None to=>None
+Wed, 24 Feb 2016 11:59:23 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 11:59:24 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=369569566&projectId=123&Region=gz&RequestClient=SDK_PYTHON_1.1&Signature=T6OBuyIMRK4UmAio8UPm2rJSHqQ%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456286363 HTTP/1.1" 200 None
+Wed, 24 Feb 2016 11:59:24 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 11:59:24] "GET /servers?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 200 -
+Wed, 24 Feb 2016 11:59:46 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 11:59:46 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 11:59:46 E:\twocloud\tc_api\api\nova.py[line:44] INFO Request: get vm servers list party=> qcloudtenant_id=>123 region=>gz from=>None to=>None
+Wed, 24 Feb 2016 11:59:46 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 11:59:47 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=176736538&projectId=123&Region=gz&RequestClient=SDK_PYTHON_1.1&Signature=dNpIZMfS3wFoVPmsAS95SgGKC%2FI%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456286386 HTTP/1.1" 200 None
+Wed, 24 Feb 2016 11:59:47 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 11:59:47] "GET /servers?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 200 -
+Wed, 24 Feb 2016 12:00:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 12:00:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:00:17 E:\twocloud\tc_api\api\nova.py[line:44] INFO Request: get vm servers list party=> qcloudtenant_id=>123 region=>gz from=>0 to=>None
+Wed, 24 Feb 2016 12:00:18 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 12:00:19 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=518498129&projectId=123&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=IZ1SO%2BuZw9ySLl%2FZMaqp90FIbZM%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456286418 HTTP/1.1" 200 None
+Wed, 24 Feb 2016 12:00:19 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 12:00:19] "GET /servers?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 200 -
+Wed, 24 Feb 2016 12:01:11 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 12:01:11 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:01:13 E:\twocloud\tc_api\api\nova.py[line:44] INFO Request: get vm servers list party=> qcloudtenant_id=>123 region=>gz from=>0 to=>None
+Wed, 24 Feb 2016 12:01:13 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 12:01:14 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=805350722&Timestamp=1456286473&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=QLHkscaCwk9Bev6lFcTG7QzjeDY%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv HTTP/1.1" 200 None
+Wed, 24 Feb 2016 12:01:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 12:01:14] "GET /servers?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 200 -
+Wed, 24 Feb 2016 12:01:23 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 12:01:23 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:06:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 12:06:42 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:16:39 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 12:16:39 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:18:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 12:18:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:22:56 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 12:22:56 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:24:20 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 12:24:20 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:24:37 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 12:24:37 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:25:20 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 12:25:20 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:30:45 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 12:30:46 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:37:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8282/ (Press CTRL+C to quit)
+Wed, 24 Feb 2016 12:37:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:41:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 12:41:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:41:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 12:41:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 12:50:15 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 12:50:15 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 14:37:25 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 14:37:25 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 14:52:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8282/ (Press CTRL+C to quit)
+Wed, 24 Feb 2016 14:52:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 14:52:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 14:52:30] "GET /servers/act?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 405 -
+Wed, 24 Feb 2016 14:52:38 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 14:52:38] "POST /servers/act?party=qcloud&tenant_id=123&region=gz HTTP/1.1" 400 -
+Wed, 24 Feb 2016 14:54:29 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 14:54:29 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 14:57:20 E:\twocloud\tc_api\api\nova.py[line:98] INFO Request: execute pm action username=>liujiahua act=>on server_ids=>123446 tenant_id=>98765 region=>gz party=>qcloud 
+Wed, 24 Feb 2016 14:57:20 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 14:57:22 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=776268214&Timestamp=1456297040&Region=gz&instanceIds.1=123446&RequestClient=SDK_PYTHON_1.1&Signature=aCeVJOIPYBKH47Tyt6omsq7iN9c%3D&Action=StartInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv HTTP/1.1" 200 None
+Wed, 24 Feb 2016 14:57:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 14:57:22] "POST /servers/act HTTP/1.1" 200 -
+Wed, 24 Feb 2016 14:57:55 E:\twocloud\tc_api\api\nova.py[line:98] INFO Request: execute pm action username=>liujiahua act=>on server_ids=>123446,1234567 tenant_id=>98765 region=>gz party=>qcloud 
+Wed, 24 Feb 2016 14:57:55 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 14:57:55 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=7686740&Timestamp=1456297075&Region=gz&instanceIds.2=1234567&instanceIds.1=123446&RequestClient=SDK_PYTHON_1.1&Signature=ccDmU%2F1mbySU7QsZmybffsnQBsU%3D&Action=StartInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv HTTP/1.1" 200 None
+Wed, 24 Feb 2016 14:57:55 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 14:57:55] "POST /servers/act HTTP/1.1" 200 -
+Wed, 24 Feb 2016 14:58:15 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 14:58:15 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 14:58:16 E:\twocloud\tc_api\api\nova.py[line:98] INFO Request: execute pm action username=>liujiahua act=>on server_ids=>123446,1234567 tenant_id=>98765 region=>gz party=>qcloud 
+Wed, 24 Feb 2016 14:58:16 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 14:58:17 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=802238668&Timestamp=1456297096&Region=gz&instanceIds.2=1234567&instanceIds.1=123446&RequestClient=SDK_PYTHON_1.1&Signature=CyIS%2BX2qlaFSyJyNvXMUf38tivw%3D&Action=StartInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv HTTP/1.1" 200 None
+Wed, 24 Feb 2016 14:58:17 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 14:58:17] "POST /servers/act HTTP/1.1" 200 -
+Wed, 24 Feb 2016 14:58:36 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 14:58:36 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 14:59:40 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Wed, 24 Feb 2016 14:59:40 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 15:04:59 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 15:04:59 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 15:06:20 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\api_util.py', reloading
+Wed, 24 Feb 2016 15:06:20 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 15:06:27 E:\twocloud\tc_api\api\nova.py[line:98] INFO Request: execute pm action username=>liujiahua act=>on server_ids=>123446,1234567 tenant_id=>98765 region=>gz party=>qcloud 
+Wed, 24 Feb 2016 15:06:27 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 15:06:28 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1901201335&Timestamp=1456297587&Region=gz&instanceIds.2=1234567&instanceIds.1=123446&RequestClient=SDK_PYTHON_1.1&Signature=g3nbs6e8315F0HtMdUeHLKYzG4k%3D&Action=StartInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv HTTP/1.1" 200 None
+Wed, 24 Feb 2016 15:06:28 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 15:06:28] "POST /servers/act HTTP/1.1" 200 -
