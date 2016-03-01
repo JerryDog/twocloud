@@ -22,12 +22,11 @@ import logging
 AUTH_PUBLIC_URI = '192.168.39.170:5000'
 ADMIN_TOKEN = '60feb5797e974a89af19e9a40f04ac07'
 ADMIN_PROJ = '74d4bda6aa1c466d8cb1f2b8eac79567'
-DATABASE = 'mysql://root:@localhost/netflow'
-DATABASE_CLOUD = 'mysql://root:@localhost/cloud'
+DATABASE = 'mysql://root:@localhost/twocloud'
 
 # Qcloud api key
-secret_id = 'AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv'
-secret_key = 'B0X99Q2Hb4jrUbQxgIF2DmuGCr2g1nkx'
+secret_id = 'test'
+secret_key = 'test'
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(pathname)s[line:%(lineno)d] %(levelname)s %(message)s',

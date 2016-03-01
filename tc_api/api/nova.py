@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 __author__ = 'liujiahua'
+import sys
 from flask import jsonify
 from flask import request
 from tc_api.api import tc_api
 from tc_api.config import logging
-from api_util import TwoCloudApi
-import sys
-import json
+from tc_api.api.utils.api_util import TwoCloudApi
+
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -46,7 +46,6 @@ def servers():
 
     options = {
         "party": party,
-        "method": "get",
         "region": "%s" % region
     }
 
@@ -61,14 +60,16 @@ def servers():
     try:
         service = TwoCloudApi(options)
         result = service.call(action, params)
-        print result
-        return jsonify(json.loads(result))
+        if result["code"] != 200:
+            return jsonify(result), 400
+        else:
+            return jsonify(result)
     except:
         logger.exception('Error with get vm_servers')
         return jsonify({"code": 400, "msg": "Error with get vm_servers"}), 400
 
 
-@tc_api.route('/servers/act', methods=['POST'])
+@tc_api.route('/servers_act', methods=['POST'])
 def act():
     """
     虚拟机开关机重启
@@ -111,7 +112,10 @@ def act():
     try:
         service = TwoCloudApi(options)
         result = service.call(action, params)
-        return jsonify(json.loads(result))
+        if result["code"] != 200:
+            return jsonify(result), 400
+        else:
+            return jsonify(result)
     except:
         logger.exception('Error with get vm_servers')
         return jsonify({"code": 400, "msg": "Error with get vm_servers"}), 400

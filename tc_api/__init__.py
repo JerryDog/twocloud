@@ -16,26 +16,31 @@ __author__ = 'liujiahua'
 
 from flask import Flask
 from flask.ext.sqlalchemy import SQLAlchemy
+from flask.ext.httpauth import HTTPBasicAuth
 from flask import abort
 from flask import request
 from flask import jsonify
-from config import AUTH_PUBLIC_URI, ADMIN_TOKEN, DATABASE, DATABASE_CLOUD
+from config import AUTH_PUBLIC_URI, ADMIN_TOKEN, DATABASE
+
 import json
 import httplib
 import re
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE
-app.config['SQLALCHEMY_BINDS'] = {
-    'cloud': DATABASE_CLOUD
-}
+app.config['SECRET_KEY'] = 'B0X99Q2Hb4jrUbQxgIF2DmuGCr2g1nkx'
 db = SQLAlchemy(app)
+auth = HTTPBasicAuth()
 
 
 @app.errorhandler(401)
 def page_not_found(error):
     return 'Unauthorized', 401
 
+@app.before_request
+@auth.login_required
+def before_request():
+    pass
 
 from tc_api import models
 #api = Api(app)
@@ -51,4 +56,4 @@ from tc_api import models
 #app.register_blueprint(identity_bp, url_prefix='/identity')
 from tc_api.api import tc_api
 
-app.register_blueprint(tc_api, url_prefix='')
+app.register_blueprint(tc_api, url_prefix='/twocloud')

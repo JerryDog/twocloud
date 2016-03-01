@@ -413,3 +413,441 @@ Wed, 24 Feb 2016 15:06:27 E:\twocloud\tc_api\api\nova.py[line:98] INFO Request: 
 Wed, 24 Feb 2016 15:06:27 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
 Wed, 24 Feb 2016 15:06:28 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1901201335&Timestamp=1456297587&Region=gz&instanceIds.2=1234567&instanceIds.1=123446&RequestClient=SDK_PYTHON_1.1&Signature=g3nbs6e8315F0HtMdUeHLKYzG4k%3D&Action=StartInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv HTTP/1.1" 200 None
 Wed, 24 Feb 2016 15:06:28 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 15:06:28] "POST /servers/act HTTP/1.1" 200 -
+Wed, 24 Feb 2016 15:36:54 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Wed, 24 Feb 2016 15:36:54 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 15:37:05 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Wed, 24 Feb 2016 15:37:05 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 15:46:56 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\__init__.py', reloading
+Wed, 24 Feb 2016 15:46:56 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 15:47:05 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 15:47:05] "POST //twocloud/servers/act HTTP/1.1" 404 -
+Wed, 24 Feb 2016 15:47:11 E:\twocloud\tc_api\api\nova.py[line:98] INFO Request: execute pm action username=>liujiahua act=>on server_ids=>123446,1234567 tenant_id=>98765 region=>gz party=>qcloud 
+Wed, 24 Feb 2016 15:47:11 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 15:47:12 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1858902862&Timestamp=1456300031&Region=gz&instanceIds.2=1234567&instanceIds.1=123446&RequestClient=SDK_PYTHON_1.1&Signature=LcTnf4C3tQX%2BLUPtCULOnRTNnmo%3D&Action=StartInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv HTTP/1.1" 200 None
+Wed, 24 Feb 2016 15:47:12 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 15:47:12] "POST /twocloud/servers/act HTTP/1.1" 200 -
+Wed, 24 Feb 2016 16:09:25 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Wed, 24 Feb 2016 16:09:25 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 16:09:37 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Wed, 24 Feb 2016 16:09:37 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 16:10:03 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 16:10:03] "GET /servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 404 -
+Wed, 24 Feb 2016 16:10:11 E:\twocloud\tc_api\api\nova.py[line:45] INFO Request: get vm servers list party=> qcloudtenant_id=>1002777 region=>gz from=>0 to=>None
+Wed, 24 Feb 2016 16:10:11 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 16:10:12 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1066848607&projectId=1002777&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=pC7jPpm%2F8gufVJYde3sBDFB0mHY%3D&Action=DescribeInstances&SecretId=AKIDhMsDLHasPm8MPMtqKcoskQ1TkogLk8EA&Timestamp=1456301411 HTTP/1.1" 200 None
+Wed, 24 Feb 2016 16:10:12 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 16:10:12] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 200 -
+Wed, 24 Feb 2016 16:18:09 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Wed, 24 Feb 2016 16:18:09 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Wed, 24 Feb 2016 16:18:13 E:\twocloud\tc_api\api\nova.py[line:45] INFO Request: get vm servers list party=> qcloudtenant_id=>1002777 region=>gz from=>0 to=>None
+Wed, 24 Feb 2016 16:18:13 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Wed, 24 Feb 2016 16:18:14 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1248982555&projectId=1002777&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=tGNaQCMVbOj%2Bm8srFXdzScY41BE%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456301893 HTTP/1.1" 200 None
+Wed, 24 Feb 2016 16:18:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [24/Feb/2016 16:18:14] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 200 -
+Thu, 25 Feb 2016 14:24:08 E:\twocloud\tc_api\api\nova.py[line:45] INFO Request: get vm servers list party=> qcloudtenant_id=>1002777 region=>gz from=>0 to=>None
+Thu, 25 Feb 2016 14:24:08 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Thu, 25 Feb 2016 14:24:08 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=988871617&projectId=1002777&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=Ua%2F%2B7lXG07biU0CdtrJoAjroyxY%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456381448 HTTP/1.1" 200 None
+Thu, 25 Feb 2016 14:24:08 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 14:24:08] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 200 -
+Thu, 25 Feb 2016 14:31:12 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Thu, 25 Feb 2016 14:31:12 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 14:35:00 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8282/ (Press CTRL+C to quit)
+Thu, 25 Feb 2016 14:35:00 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 14:35:02 E:\twocloud\tc_api\api\nova.py[line:48] INFO Request: get vm servers list party=> qcloudtenant_id=>1002777 region=>gz from=>0 to=>None
+Thu, 25 Feb 2016 14:35:02 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Thu, 25 Feb 2016 14:35:03 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=523775753&projectId=1002777&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=8vkpfXamxGeEwa6o5vpbJ3h5Pj4%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456382102 HTTP/1.1" 200 None
+Thu, 25 Feb 2016 14:35:03 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 14:35:03] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 200 -
+Thu, 25 Feb 2016 14:36:18 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Thu, 25 Feb 2016 14:36:18 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 15:37:18 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8282/ (Press CTRL+C to quit)
+Thu, 25 Feb 2016 15:37:18 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 15:37:20 E:\twocloud\tc_api\api\nova.py[line:48] INFO Request: get vm servers list party=> qcloudtenant_id=>1002777 region=>gz from=>0 to=>None
+Thu, 25 Feb 2016 15:37:20 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Thu, 25 Feb 2016 15:37:21 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1987397602&projectId=1002777&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=7Tej8ZuOmp6lJn%2Ftc7gc6c%2FKcOg%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456385840 HTTP/1.1" 200 None
+Thu, 25 Feb 2016 15:37:21 E:\twocloud\tc_api\api\utils\api_util.py[line:28] INFO Qcloud response: {"code":4000,"message":"\u8bf7\u6c42\u5931\u8d25\uff0c\u53c2\u6570\u9519\u8bef:[projectId]"}
+Thu, 25 Feb 2016 15:37:21 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 15:37:21] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 200 -
+Thu, 25 Feb 2016 15:38:05 E:\twocloud\tc_api\api\nova.py[line:48] INFO Request: get vm servers list party=> qcloudtenant_id=>1002777 region=>gz from=>0 to=>None
+Thu, 25 Feb 2016 15:38:05 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Thu, 25 Feb 2016 15:38:05 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1033023990&projectId=1002777&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=F9SLPmp%2FemZbasnHcVj1lgBHqvA%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456385885 HTTP/1.1" 200 None
+Thu, 25 Feb 2016 15:38:05 E:\twocloud\tc_api\api\utils\api_util.py[line:28] INFO Qcloud response: {"code":4000,"message":"\u8bf7\u6c42\u5931\u8d25\uff0c\u53c2\u6570\u9519\u8bef:[projectId]"}
+Thu, 25 Feb 2016 15:38:05 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 15:38:05] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 200 -
+Thu, 25 Feb 2016 15:41:04 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Thu, 25 Feb 2016 15:41:04 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 15:41:06 E:\twocloud\tc_api\api\nova.py[line:48] INFO Request: get vm servers list party=> qcloudtenant_id=>1002777 region=>gz from=>0 to=>None
+Thu, 25 Feb 2016 15:41:06 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Thu, 25 Feb 2016 15:41:08 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1175329849&projectId=1002777&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=OElxMizN9XTutDiPFYBl16xbe68%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456386066 HTTP/1.1" 200 None
+Thu, 25 Feb 2016 15:41:08 E:\twocloud\tc_api\api\utils\api_util.py[line:28] INFO Qcloud response: {"code":4000,"message":"\u8bf7\u6c42\u5931\u8d25\uff0c\u53c2\u6570\u9519\u8bef:[projectId]"}
+Thu, 25 Feb 2016 15:41:08 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 15:41:08] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 400 -
+Thu, 25 Feb 2016 15:41:40 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Thu, 25 Feb 2016 15:41:40 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 15:41:56 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 15:41:56] "POST //twocloud/servers/act HTTP/1.1" 404 -
+Thu, 25 Feb 2016 15:42:04 E:\twocloud\tc_api\api\nova.py[line:103] INFO Request: execute pm action username=>liujiahua act=>on server_ids=>123446,1234567 tenant_id=>98765 region=>gz party=>qcloud 
+Thu, 25 Feb 2016 15:42:04 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Thu, 25 Feb 2016 15:42:06 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=756479475&Timestamp=1456386124&Region=gz&instanceIds.2=1234567&instanceIds.1=123446&RequestClient=SDK_PYTHON_1.1&Signature=D5yY2hW%2FehhSJLc3eb6f128t%2BJw%3D&Action=StartInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv HTTP/1.1" 200 None
+Thu, 25 Feb 2016 15:42:06 E:\twocloud\tc_api\api\utils\api_util.py[line:28] INFO Qcloud response: {"code":4000,"message":"\u8d44\u6e90\u4e0d\u5b58\u5728:[instanceIds]\u3002"}
+Thu, 25 Feb 2016 15:42:06 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 15:42:06] "POST /twocloud/servers/act HTTP/1.1" 400 -
+Thu, 25 Feb 2016 15:43:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Thu, 25 Feb 2016 15:43:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 15:48:36 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Thu, 25 Feb 2016 15:48:36 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 15:49:08 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Thu, 25 Feb 2016 15:49:08 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 15:53:28 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Thu, 25 Feb 2016 15:53:28 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 15:56:23 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Thu, 25 Feb 2016 15:56:23 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 16:03:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Thu, 25 Feb 2016 16:03:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 17:01:01 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\models.py', reloading
+Thu, 25 Feb 2016 17:01:01 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 17:01:20 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\models.py', reloading
+Thu, 25 Feb 2016 17:01:20 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 17:10:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000300A228>
+Thu, 25 Feb 2016 17:10:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:10:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:10:23 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8282/ (Press CTRL+C to quit)
+Thu, 25 Feb 2016 17:10:23 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 17:10:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FFD228>
+Thu, 25 Feb 2016 17:10:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:10:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:23:58 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\nova.py', reloading
+Thu, 25 Feb 2016 17:23:58 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 17:23:58 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000304D228>
+Thu, 25 Feb 2016 17:23:58 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:23:58 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:25:51 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\__init__.py', reloading
+Thu, 25 Feb 2016 17:25:51 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 17:36:34 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x00000000030FF228>
+Thu, 25 Feb 2016 17:36:34 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:36:34 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:37:46 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000003099228>
+Thu, 25 Feb 2016 17:37:46 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:37:46 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:37:46 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8282/ (Press CTRL+C to quit)
+Thu, 25 Feb 2016 17:37:46 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 17:37:46 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000003006228>
+Thu, 25 Feb 2016 17:37:46 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:37:46 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:38:00 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 17:38:00] "GET /twocloud/tokens HTTP/1.1" 404 -
+Thu, 25 Feb 2016 17:38:06 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 17:38:06] "POST /twocloud/tokens HTTP/1.1" 404 -
+Thu, 25 Feb 2016 17:38:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\__init__.py', reloading
+Thu, 25 Feb 2016 17:38:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 17:38:41 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FE6228>
+Thu, 25 Feb 2016 17:38:41 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:38:41 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:38:45 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 17:38:45] "POST /twocloud/tokens HTTP/1.1" 500 -
+Thu, 25 Feb 2016 17:40:04 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 17:40:04 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 17:40:05 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000305E228>
+Thu, 25 Feb 2016 17:40:05 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:40:05 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:40:13 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 17:40:13] "POST /twocloud/tokens HTTP/1.1" 500 -
+Thu, 25 Feb 2016 17:43:41 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002F8D288>
+Thu, 25 Feb 2016 17:43:41 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:43:41 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:45:05 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 17:45:05] "POST /twocloud/tokens HTTP/1.1" 500 -
+Thu, 25 Feb 2016 17:45:40 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000309D288>
+Thu, 25 Feb 2016 17:45:40 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:45:40 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 17:46:12 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 17:46:12] "POST /twocloud/tokens HTTP/1.1" 401 -
+Thu, 25 Feb 2016 17:47:01 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 17:47:01] "POST /twocloud/tokens HTTP/1.1" 401 -
+Thu, 25 Feb 2016 17:47:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 17:47:22] "POST /twocloud/tokens HTTP/1.1" 401 -
+Thu, 25 Feb 2016 17:48:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 17:48:14] "POST /twocloud/tokens HTTP/1.1" 401 -
+Thu, 25 Feb 2016 18:02:06 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 18:02:06 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 18:02:07 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000308F228>
+Thu, 25 Feb 2016 18:02:07 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:02:07 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:02:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 18:02:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 18:02:27 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000303F228>
+Thu, 25 Feb 2016 18:02:27 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:02:27 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:03:13 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Thu, 25 Feb 2016 18:03:13 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Thu, 25 Feb 2016 18:03:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:03:14] "POST /twocloud/users HTTP/1.1" 500 -
+Thu, 25 Feb 2016 18:04:10 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:04:10] "POST /twocloud/users HTTP/1.1" 400 -
+Thu, 25 Feb 2016 18:04:15 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:04:15] "POST /twocloud/users HTTP/1.1" 400 -
+Thu, 25 Feb 2016 18:05:05 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:05:05] "POST /twocloud/users HTTP/1.1" 400 -
+Thu, 25 Feb 2016 18:05:13 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FEA228>
+Thu, 25 Feb 2016 18:05:13 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:05:13 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:05:13 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8282/ (Press CTRL+C to quit)
+Thu, 25 Feb 2016 18:05:13 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 18:05:13 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x00000000030CF228>
+Thu, 25 Feb 2016 18:05:13 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:05:13 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:05:29 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 18:05:29 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 18:05:29 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000310F228>
+Thu, 25 Feb 2016 18:05:29 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:05:29 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:05:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:05:33] "POST /twocloud/users HTTP/1.1" 400 -
+Thu, 25 Feb 2016 18:05:45 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:05:45] "POST /twocloud/tokens HTTP/1.1" 401 -
+Thu, 25 Feb 2016 18:05:55 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:05:55] "POST /twocloud/users HTTP/1.1" 400 -
+Thu, 25 Feb 2016 18:06:18 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:06:18] "POST /twocloud/users HTTP/1.1" 500 -
+Thu, 25 Feb 2016 18:06:40 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:06:40] "POST /twocloud/users HTTP/1.1" 400 -
+Thu, 25 Feb 2016 18:07:00 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 18:07:00 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 18:07:00 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x00000000030EF228>
+Thu, 25 Feb 2016 18:07:00 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:07:00 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:07:05 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:07:05] "POST /twocloud/users HTTP/1.1" 400 -
+Thu, 25 Feb 2016 18:07:20 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 18:07:20 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 18:07:20 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000316F228>
+Thu, 25 Feb 2016 18:07:20 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:07:20 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:08:18 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Thu, 25 Feb 2016 18:08:18 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Thu, 25 Feb 2016 18:08:18 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:08:18] "POST /twocloud/tokens HTTP/1.1" 500 -
+Thu, 25 Feb 2016 18:08:51 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\models.py', reloading
+Thu, 25 Feb 2016 18:08:51 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 18:08:51 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000312F228>
+Thu, 25 Feb 2016 18:08:51 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:08:51 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:09:11 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000310D288>
+Thu, 25 Feb 2016 18:09:11 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:09:11 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 18:09:38 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Thu, 25 Feb 2016 18:09:38 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Thu, 25 Feb 2016 18:09:39 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:09:39] "POST /twocloud/users HTTP/1.1" 500 -
+Thu, 25 Feb 2016 18:10:08 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 18:10:08] "POST /twocloud/tokens HTTP/1.1" 500 -
+Thu, 25 Feb 2016 19:49:08 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 19:49:08 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 19:49:09 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FAF228>
+Thu, 25 Feb 2016 19:49:09 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 19:49:09 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 19:49:16 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Thu, 25 Feb 2016 19:49:16 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Thu, 25 Feb 2016 19:49:17 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:49:17] "POST /twocloud/tokens HTTP/1.1" 200 -
+Thu, 25 Feb 2016 19:52:23 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:52:23] "POST /twocloud/users HTTP/1.1" 500 -
+Thu, 25 Feb 2016 19:53:52 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 19:53:52 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 19:53:53 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x00000000030EF228>
+Thu, 25 Feb 2016 19:53:53 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 19:53:53 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 19:54:24 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Thu, 25 Feb 2016 19:54:24 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Thu, 25 Feb 2016 19:54:25 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:54:25] "POST /twocloud/users HTTP/1.1" 200 -
+Thu, 25 Feb 2016 19:54:38 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 19:54:38 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 19:54:38 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FAF228>
+Thu, 25 Feb 2016 19:54:38 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 19:54:38 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 19:55:58 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Thu, 25 Feb 2016 19:55:58 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Thu, 25 Feb 2016 19:55:59 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:55:59] "POST /twocloud/tokens HTTP/1.1" 200 -
+Thu, 25 Feb 2016 19:56:29 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:56:29] "POST /twocloud/tokens HTTP/1.1" 200 -
+Thu, 25 Feb 2016 19:57:19 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 19:57:19 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 19:57:20 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FDF228>
+Thu, 25 Feb 2016 19:57:20 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 19:57:20 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 19:57:58 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:57:58] "POST /twocloud/resource HTTP/1.1" 405 -
+Thu, 25 Feb 2016 19:58:00 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:58:00] "POST /twocloud/resources HTTP/1.1" 404 -
+Thu, 25 Feb 2016 19:58:19 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 19:58:19 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 19:58:20 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FAF228>
+Thu, 25 Feb 2016 19:58:20 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 19:58:20 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 19:58:25 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:58:25] "GET /twocloud/resources HTTP/1.1" 404 -
+Thu, 25 Feb 2016 19:58:27 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:58:27] "GET /twocloud/resource HTTP/1.1" 200 -
+Thu, 25 Feb 2016 19:58:54 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:58:54] "GET /twocloud/resource HTTP/1.1" 401 -
+Thu, 25 Feb 2016 19:58:59 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 19:58:59] "GET /twocloud/resource HTTP/1.1" 200 -
+Thu, 25 Feb 2016 20:00:15 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 20:00:15 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 20:00:15 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x00000000030CF228>
+Thu, 25 Feb 2016 20:00:15 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:00:15 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:00:21 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 20:00:21] "GET /twocloud/resource HTTP/1.1" 200 -
+Thu, 25 Feb 2016 20:01:29 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 20:01:29 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 20:01:29 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000311F228>
+Thu, 25 Feb 2016 20:01:29 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:01:29 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:01:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 20:01:30] "GET /twocloud/resource HTTP/1.1" 200 -
+Thu, 25 Feb 2016 20:01:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 20:01:44 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 20:01:44 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FCF228>
+Thu, 25 Feb 2016 20:01:44 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:01:44 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:01:45 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 20:01:45] "GET /twocloud/resource HTTP/1.1" 200 -
+Thu, 25 Feb 2016 20:04:13 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 20:04:13] "GET /twocloud/resource HTTP/1.1" 401 -
+Thu, 25 Feb 2016 20:09:21 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Thu, 25 Feb 2016 20:09:21 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Thu, 25 Feb 2016 20:09:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 20:09:22] "GET /twocloud/resource HTTP/1.1" 401 -
+Thu, 25 Feb 2016 20:10:47 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 20:10:47] "GET /twocloud/resource HTTP/1.1" 200 -
+Thu, 25 Feb 2016 20:11:55 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [25/Feb/2016 20:11:55] "GET /twocloud/resource HTTP/1.1" 200 -
+Thu, 25 Feb 2016 20:12:53 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 20:12:53 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 20:12:54 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000302F228>
+Thu, 25 Feb 2016 20:12:54 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:12:54 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:13:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 20:13:31 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 20:13:31 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x00000000030BF228>
+Thu, 25 Feb 2016 20:13:31 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:13:31 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:14:46 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Thu, 25 Feb 2016 20:14:46 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Thu, 25 Feb 2016 20:14:47 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FFF228>
+Thu, 25 Feb 2016 20:14:47 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Thu, 25 Feb 2016 20:14:47 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:30:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 10:30:30 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:30:30 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FFD228>
+Fri, 26 Feb 2016 10:30:30 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:30:30 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:30:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 10:30:41] "GET /twocloud/resource HTTP/1.1" 401 -
+Fri, 26 Feb 2016 10:30:48 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Fri, 26 Feb 2016 10:30:48 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Fri, 26 Feb 2016 10:30:49 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 10:30:49] "GET /twocloud/resource HTTP/1.1" 200 -
+Fri, 26 Feb 2016 10:30:52 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 10:30:52] "GET /twocloud/resource HTTP/1.1" 401 -
+Fri, 26 Feb 2016 10:30:58 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 10:30:58] "GET /twocloud/resource HTTP/1.1" 200 -
+Fri, 26 Feb 2016 10:31:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 10:31:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:31:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000306A228>
+Fri, 26 Feb 2016 10:31:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:31:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:32:06 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 10:32:06] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 401 -
+Fri, 26 Feb 2016 10:32:21 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Fri, 26 Feb 2016 10:32:21 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Fri, 26 Feb 2016 10:32:22 E:\twocloud\tc_api\api\nova.py[line:45] INFO Request: get vm servers list party=> qcloudtenant_id=>1002777 region=>gz from=>0 to=>None
+Fri, 26 Feb 2016 10:32:22 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Fri, 26 Feb 2016 10:32:24 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1714053532&projectId=1002777&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=jW3NI7F2d3WSDUyCPds7tJ0yAYE%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456453942 HTTP/1.1" 200 None
+Fri, 26 Feb 2016 10:32:24 E:\twocloud\tc_api\api\utils\api_util.py[line:28] INFO Qcloud response: {"code":4000,"message":"\u8bf7\u6c42\u5931\u8d25\uff0c\u53c2\u6570\u9519\u8bef:[projectId]"}
+Fri, 26 Feb 2016 10:32:24 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 10:32:24] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 400 -
+Fri, 26 Feb 2016 10:33:00 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 10:33:00] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 401 -
+Fri, 26 Feb 2016 10:41:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 10:41:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:41:33 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x00000000030BA228>
+Fri, 26 Feb 2016 10:41:33 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:41:33 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:43:43 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 10:43:43 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:43:44 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000307A228>
+Fri, 26 Feb 2016 10:43:44 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:43:44 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:44:03 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 10:44:03 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:44:03 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000300A228>
+Fri, 26 Feb 2016 10:44:03 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:44:03 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:49:07 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Fri, 26 Feb 2016 10:49:07 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:49:07 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000301A228>
+Fri, 26 Feb 2016 10:49:07 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:49:07 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:49:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Fri, 26 Feb 2016 10:49:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:49:22 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FFA228>
+Fri, 26 Feb 2016 10:49:22 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:49:22 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:49:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Fri, 26 Feb 2016 10:49:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:49:33 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FBA228>
+Fri, 26 Feb 2016 10:49:33 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:49:33 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:51:23 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 10:51:23 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:51:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000307A228>
+Fri, 26 Feb 2016 10:51:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:51:23 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:52:26 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Fri, 26 Feb 2016 10:52:26 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:52:26 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000308A228>
+Fri, 26 Feb 2016 10:52:26 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:52:26 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:53:03 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Fri, 26 Feb 2016 10:53:03 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:53:03 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000308A228>
+Fri, 26 Feb 2016 10:53:03 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:53:03 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:53:09 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\common.py', reloading
+Fri, 26 Feb 2016 10:53:09 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:53:09 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000301A228>
+Fri, 26 Feb 2016 10:53:09 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:53:09 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:56:04 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 10:56:04 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:56:04 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000309A228>
+Fri, 26 Feb 2016 10:56:04 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:56:04 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:57:09 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\utils\\api_util.py', reloading
+Fri, 26 Feb 2016 10:57:09 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 10:57:10 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000304A228>
+Fri, 26 Feb 2016 10:57:10 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:57:10 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 10:57:53 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Fri, 26 Feb 2016 10:57:53 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Fri, 26 Feb 2016 10:57:54 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 10:57:54] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 10:58:57 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 10:58:57] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 10:59:34 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 10:59:34] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 11:00:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:00:33] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 11:01:22 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:01:22] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 401 -
+Fri, 26 Feb 2016 11:01:30 E:\twocloud\tc_api\api\nova.py[line:45] INFO Request: get vm servers list party=> qcloudtenant_id=>1002777 region=>gz from=>0 to=>None
+Fri, 26 Feb 2016 11:01:30 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Fri, 26 Feb 2016 11:01:35 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=123243371&projectId=1002777&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=OzyZ7UIfmv0nJsvIqJfJ6f%2FAXyc%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456455690 HTTP/1.1" 200 None
+Fri, 26 Feb 2016 11:01:35 E:\twocloud\tc_api\api\utils\api_util.py[line:30] INFO Qcloud response: {"code":4000,"message":"\u8bf7\u6c42\u5931\u8d25\uff0c\u53c2\u6570\u9519\u8bef:[projectId]"}
+Fri, 26 Feb 2016 11:01:35 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:01:35] "GET /twocloud/servers?party=qcloud&tenant_id=1002777&region=gz HTTP/1.1" 400 -
+Fri, 26 Feb 2016 11:01:50 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:01:50] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 11:02:04 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:02:04] "POST /twocloud/add_tenant HTTP/1.1" 401 -
+Fri, 26 Feb 2016 11:02:35 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 11:02:35 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 11:02:36 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000307A228>
+Fri, 26 Feb 2016 11:02:36 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 11:02:36 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 11:02:40 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Fri, 26 Feb 2016 11:02:40 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Fri, 26 Feb 2016 11:02:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:02:41] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 11:02:49 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:02:49] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 11:03:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 11:03:14 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 11:03:14 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FFA228>
+Fri, 26 Feb 2016 11:03:14 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 11:03:14 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 11:03:17 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Fri, 26 Feb 2016 11:03:17 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Fri, 26 Feb 2016 11:03:18 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:03:18] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 11:03:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 11:03:33 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 11:03:34 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FEA228>
+Fri, 26 Feb 2016 11:03:34 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 11:03:34 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 11:04:06 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FB5228>
+Fri, 26 Feb 2016 11:04:06 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 11:04:06 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 11:04:06 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Running on http://0.0.0.0:8282/ (Press CTRL+C to quit)
+Fri, 26 Feb 2016 11:04:06 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 11:04:06 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x00000000030CA228>
+Fri, 26 Feb 2016 11:04:06 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 11:04:06 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 11:04:11 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha512_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+Fri, 26 Feb 2016 11:04:11 C:\Python27\lib\site-packages\passlib\registry.py[line:284] DEBUG registered 'sha256_crypt' handler: <class 'passlib.handlers.sha2_crypt.sha256_crypt'>
+Fri, 26 Feb 2016 11:04:12 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:04:12] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 11:04:52 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:04:52] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 11:05:00 E:\twocloud\tc_api\api\identity.py[line:68] INFO Request: get vm servers list party=> qcloudtenant_name=>test tenant_desc=>test region=>gz 
+Fri, 26 Feb 2016 11:05:00 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): account.api.qcloud.com
+Fri, 26 Feb 2016 11:05:02 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=589831304&projectName=test&Region=gz&projectDesc=test&RequestClient=SDK_PYTHON_1.1&Signature=9YpB%2BCVVIpvS%2FgvTZFbon5JbgYU%3D&Action=AddProject&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456455900 HTTP/1.1" 200 None
+Fri, 26 Feb 2016 11:05:02 E:\twocloud\tc_api\api\utils\api_util.py[line:30] INFO Qcloud response: {"code":0,"message":"","projectId":1005655}
+Fri, 26 Feb 2016 11:05:02 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:05:02] "POST /twocloud/add_tenant HTTP/1.1" 200 -
+Fri, 26 Feb 2016 11:06:36 E:\twocloud\tc_api\api\identity.py[line:68] INFO Request: get vm servers list party=> qcloudtenant_name=>test tenant_desc=>test region=>gz 
+Fri, 26 Feb 2016 11:06:36 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): account.api.qcloud.com
+Fri, 26 Feb 2016 11:06:36 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=683550883&projectName=test&Region=gz&projectDesc=test&RequestClient=SDK_PYTHON_1.1&Signature=VTKhtUX4bHnpD4jcJRr2gAgfu7o%3D&Action=AddProject&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456455996 HTTP/1.1" 200 None
+Fri, 26 Feb 2016 11:06:36 E:\twocloud\tc_api\api\utils\api_util.py[line:30] INFO Qcloud response: {"code":5100,"message":"(11308)\u670d\u52a1\u5185\u90e8\u9519\u8bef\u3002"}
+Fri, 26 Feb 2016 11:06:36 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:06:36] "POST /twocloud/add_tenant HTTP/1.1" 400 -
+Fri, 26 Feb 2016 11:13:40 E:\twocloud\tc_api\api\nova.py[line:45] INFO Request: get vm servers list party=> qcloudtenant_id=>1005655 region=>gz from=>0 to=>None
+Fri, 26 Feb 2016 11:13:40 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:735] INFO Starting new HTTPS connection (1): cvm.api.qcloud.com
+Fri, 26 Feb 2016 11:13:41 C:\Python27\lib\site-packages\requests\packages\urllib3\connectionpool.py[line:383] DEBUG "GET /v2/index.php?Nonce=1604656717&projectId=1005655&Region=gz&offset=0&RequestClient=SDK_PYTHON_1.1&Signature=seWm9N3bvmVdTdamdMs7qd0IZbQ%3D&Action=DescribeInstances&SecretId=AKIDngzxODvMrt3ae7LAm171fnLpHF0ymyuv&Timestamp=1456456420 HTTP/1.1" 200 None
+Fri, 26 Feb 2016 11:13:41 E:\twocloud\tc_api\api\utils\api_util.py[line:30] INFO Qcloud response: {"totalCount":0,"instanceSet":[],"code":0,"message":""}
+Fri, 26 Feb 2016 11:13:41 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO 192.168.39.170 - - [26/Feb/2016 11:13:41] "GET /twocloud/servers?party=qcloud&tenant_id=1005655&region=gz HTTP/1.1" 200 -
+Fri, 26 Feb 2016 15:53:26 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 15:53:26 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 15:53:26 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x00000000030CA228>
+Fri, 26 Feb 2016 15:53:26 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 15:53:26 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 26 Feb 2016 16:06:31 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\api\\identity.py', reloading
+Fri, 26 Feb 2016 16:06:31 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 26 Feb 2016 16:06:32 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000300A228>
+Fri, 26 Feb 2016 16:06:32 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 26 Feb 2016 16:06:32 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Tue, 01 Mar 2016 15:18:24 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Tue, 01 Mar 2016 15:18:24 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 01 Mar 2016 15:18:25 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000319A228>
+Tue, 01 Mar 2016 15:18:25 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Tue, 01 Mar 2016 15:18:25 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>

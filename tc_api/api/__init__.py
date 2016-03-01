@@ -38,3 +38,4 @@ tc_api = Blueprint('tc_api', __name__)
 
 
 from tc_api.api import nova
+from tc_api.api import identity
