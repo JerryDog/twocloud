@@ -20,7 +20,7 @@ from flask.ext.httpauth import HTTPBasicAuth
 from flask import abort
 from flask import request
 from flask import jsonify
-from config import AUTH_PUBLIC_URI, ADMIN_TOKEN, DATABASE
+from config import AUTH_PUBLIC_URI, ADMIN_TOKEN, DATABASE, SECRET_KEY
 
 import json
 import httplib
@@ -28,7 +28,7 @@ import re
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE
-app.config['SECRET_KEY'] = 'B0X99Q2Hb4jrUbQxgIF2DmuGCr2g1nkx'
+app.config['SECRET_KEY'] = SECRET_KEY
 db = SQLAlchemy(app)
 auth = HTTPBasicAuth()
 

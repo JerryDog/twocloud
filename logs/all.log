@@ -851,3 +851,23 @@ Tue, 01 Mar 2016 15:18:24 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.eg
 Tue, 01 Mar 2016 15:18:25 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000319A228>
 Tue, 01 Mar 2016 15:18:25 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
 Tue, 01 Mar 2016 15:18:25 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Tue, 01 Mar 2016 15:18:39 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Tue, 01 Mar 2016 15:18:39 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 01 Mar 2016 15:18:39 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FFA228>
+Tue, 01 Mar 2016 15:18:39 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Tue, 01 Mar 2016 15:18:39 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Tue, 01 Mar 2016 18:32:26 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Tue, 01 Mar 2016 18:32:26 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 01 Mar 2016 18:32:26 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000304A228>
+Tue, 01 Mar 2016 18:32:26 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Tue, 01 Mar 2016 18:32:26 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Tue, 01 Mar 2016 18:32:37 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\__init__.py', reloading
+Tue, 01 Mar 2016 18:32:37 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Tue, 01 Mar 2016 18:32:37 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x0000000002FDD228>
+Tue, 01 Mar 2016 18:32:37 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Tue, 01 Mar 2016 18:32:37 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
+Fri, 04 Mar 2016 15:35:53 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Detected change in 'E:\\twocloud\\tc_api\\config.py', reloading
+Fri, 04 Mar 2016 15:35:54 C:\Python27\lib\site-packages\werkzeug-0.10.4-py2.7.egg\werkzeug\_internal.py[line:87] INFO  * Restarting with stat
+Fri, 04 Mar 2016 15:35:55 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'SafeConfigParser': <class ConfigParser.SafeConfigParser at 0x000000000308B228>
+Fri, 04 Mar 2016 15:35:55 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'NativeStringIO': <built-in function StringIO>
+Fri, 04 Mar 2016 15:35:55 C:\Python27\lib\site-packages\passlib\utils\compat.py[line:413] DEBUG loaded lazy attr 'BytesIO': <built-in function StringIO>
